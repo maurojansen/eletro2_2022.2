@@ -4,6 +4,7 @@ programa
     funcao inicio()
     {
         real raio, area
+        escreva("Algoritmo para calcular o raio de uma circunferência\n")
         escreva("Qual o raio da circunferência? ")
         leia(raio)
 
