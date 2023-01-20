@@ -22,6 +22,10 @@ programa
 		escreva("Digite a nota do aluno (0 a 100): ")
 		leia(n)
 
+	    	se(n<0 ou n>100)
+		{
+		   escreva("Você digitou uma nota inválida.")
+		}
 		se(n>=0 e n<=49)
 		{ 
 			escreva("Insuficiente")
