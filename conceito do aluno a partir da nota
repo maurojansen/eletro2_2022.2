@@ -38,7 +38,7 @@ programa
 		{
 			escreva("Bom")
 		}
-		se(n>=65 e n<=84) 
+		se(n>=85 e n<=100) 
 		{
 			escreva("Ótimo")
 		}
