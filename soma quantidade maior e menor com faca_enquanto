@@ -2,7 +2,8 @@
 programa {
   funcao inicio() {
     real n, soma, quant, maior, menor
-    soma = 0
+    soma=0
+    quant=0
     maior=0
     menor=0
     faca
@@ -20,7 +21,9 @@ programa {
     }
     enquanto(n!=0)
     escreva("A soma dos numeros é: ",soma)
-    escreva("Quantidade de números digitados: ",quant)
-    escreva("Média dos números digitados: ",soma/quant)
+    escreva("\nQuantidade de números digitados: ",quant)
+    escreva("\nMédia dos números digitados: ",soma/quant)
+    escreva("\nO maior número foi: ",maior)
+    escreva("\nO menor número foi: ",menor)
   }
 }
