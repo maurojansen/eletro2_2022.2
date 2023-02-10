@@ -1,4 +1,6 @@
-// soma numeros digitados enquanto a pessoa não digitar zero - com o comando faca...enquanto
+// solicitar numeros enquanto a pessoa não digitar zero 
+// e calcular a soma, quantidade, média
+// e identificar o maior e o menor número digitado
 programa {
   funcao inicio() {
     real n, soma, quant, maior, menor
